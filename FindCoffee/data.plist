@@ -1,0 +1,2586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>meta</key>
+	<dict>
+		<key>code</key>
+		<integer>200</integer>
+	</dict>
+	<key>response</key>
+	<dict>
+		<key>confident</key>
+		<false/>
+		<key>venues</key>
+		<array>
+			<dict>
+				<key>categories</key>
+				<array>
+					<dict>
+						<key>icon</key>
+						<dict>
+							<key>prefix</key>
+							<string>https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_</string>
+							<key>suffix</key>
+							<string>.png</string>
+						</dict>
+						<key>id</key>
+						<string>4bf58dd8d48988d163941735</string>
+						<key>name</key>
+						<string>Park</string>
+						<key>pluralName</key>
+						<string>Parks</string>
+						<key>primary</key>
+						<true/>
+						<key>shortName</key>
+						<string>Park</string>
+					</dict>
+				</array>
+				<key>contact</key>
+				<dict>
+					<key>facebook</key>
+					<string>104475634308</string>
+					<key>facebookName</key>
+					<string>Bartow-Pell Mansion Museum</string>
+					<key>facebookUsername</key>
+					<string>BartowPell</string>
+					<key>formattedPhone</key>
+					<string>(212) 803-3822</string>
+					<key>phone</key>
+					<string>2128033822</string>
+					<key>twitter</key>
+					<string>nycparks</string>
+				</dict>
+				<key>hereNow</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>groups</key>
+					<array/>
+					<key>summary</key>
+					<string>Nobody here</string>
+				</dict>
+				<key>id</key>
+				<string>430d0a00f964a5203e271fe3</string>
+				<key>location</key>
+				<dict>
+					<key>address</key>
+					<string>Main St.</string>
+					<key>cc</key>
+					<string>US</string>
+					<key>city</key>
+					<string>Brooklyn</string>
+					<key>country</key>
+					<string>United States</string>
+					<key>crossStreet</key>
+					<string>Plymouth St.</string>
+					<key>distance</key>
+					<integer>387</integer>
+					<key>formattedAddress</key>
+					<array>
+						<string>Main St. (Plymouth St.)</string>
+						<string>Brooklyn, NY 11201</string>
+						<string>United States</string>
+					</array>
+					<key>lat</key>
+					<real>40.701593743002</real>
+					<key>lng</key>
+					<real>-73.99592399597168</real>
+					<key>postalCode</key>
+					<string>11201</string>
+					<key>state</key>
+					<string>NY</string>
+				</dict>
+				<key>name</key>
+				<string>Brooklyn Bridge Park</string>
+				<key>referralId</key>
+				<string>v-1422577824</string>
+				<key>specials</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>items</key>
+					<array/>
+				</dict>
+				<key>stats</key>
+				<dict>
+					<key>checkinsCount</key>
+					<integer>28106</integer>
+					<key>tipCount</key>
+					<integer>170</integer>
+					<key>usersCount</key>
+					<integer>17550</integer>
+				</dict>
+				<key>url</key>
+				<string>http://nyc.gov/parks</string>
+				<key>verified</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>categories</key>
+				<array>
+					<dict>
+						<key>icon</key>
+						<dict>
+							<key>prefix</key>
+							<string>https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_</string>
+							<key>suffix</key>
+							<string>.png</string>
+						</dict>
+						<key>id</key>
+						<string>4bf58dd8d48988d163941735</string>
+						<key>name</key>
+						<string>Park</string>
+						<key>pluralName</key>
+						<string>Parks</string>
+						<key>primary</key>
+						<true/>
+						<key>shortName</key>
+						<string>Park</string>
+					</dict>
+				</array>
+				<key>contact</key>
+				<dict/>
+				<key>hereNow</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>groups</key>
+					<array/>
+					<key>summary</key>
+					<string>Nobody here</string>
+				</dict>
+				<key>id</key>
+				<string>51eabef6498e10cf3aea7942</string>
+				<key>location</key>
+				<dict>
+					<key>address</key>
+					<string>Furman St</string>
+					<key>cc</key>
+					<string>US</string>
+					<key>city</key>
+					<string>Brooklyn</string>
+					<key>country</key>
+					<string>United States</string>
+					<key>crossStreet</key>
+					<string>Brooklyn Bridge Park Greenway</string>
+					<key>distance</key>
+					<integer>146</integer>
+					<key>formattedAddress</key>
+					<array>
+						<string>Furman St (Brooklyn Bridge Park Greenway)</string>
+						<string>Brooklyn, NY</string>
+						<string>United States</string>
+					</array>
+					<key>lat</key>
+					<real>40.699564547806752</real>
+					<key>lng</key>
+					<real>-73.998357405331049</real>
+					<key>state</key>
+					<string>NY</string>
+				</dict>
+				<key>name</key>
+				<string>Brooklyn Bridge Park - Pier 2</string>
+				<key>referralId</key>
+				<string>v-1422577824</string>
+				<key>specials</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>items</key>
+					<array/>
+				</dict>
+				<key>stats</key>
+				<dict>
+					<key>checkinsCount</key>
+					<integer>1461</integer>
+					<key>tipCount</key>
+					<integer>10</integer>
+					<key>usersCount</key>
+					<integer>1126</integer>
+				</dict>
+				<key>verified</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>categories</key>
+				<array>
+					<dict>
+						<key>icon</key>
+						<dict>
+							<key>prefix</key>
+							<string>https://ss3.4sqi.net/img/categories_v2/building/gym_</string>
+							<key>suffix</key>
+							<string>.png</string>
+						</dict>
+						<key>id</key>
+						<string>4bf58dd8d48988d175941735</string>
+						<key>name</key>
+						<string>Gym / Fitness Center</string>
+						<key>pluralName</key>
+						<string>Gyms or Fitness Centers</string>
+						<key>primary</key>
+						<true/>
+						<key>shortName</key>
+						<string>Gym / Fitness</string>
+					</dict>
+				</array>
+				<key>contact</key>
+				<dict>
+					<key>formattedPhone</key>
+					<string>(212) 227-0005</string>
+					<key>phone</key>
+					<string>2122270005</string>
+					<key>twitter</key>
+					<string>crunchgym</string>
+				</dict>
+				<key>hereNow</key>
+				<dict>
+					<key>count</key>
+					<integer>6</integer>
+					<key>groups</key>
+					<array>
+						<dict>
+							<key>count</key>
+							<integer>6</integer>
+							<key>items</key>
+							<array/>
+							<key>name</key>
+							<string>Other people here</string>
+							<key>type</key>
+							<string>others</string>
+						</dict>
+					</array>
+					<key>summary</key>
+					<string>6 people are checked in here</string>
+				</dict>
+				<key>id</key>
+				<string>4a5f5a54f964a52071bf1fe3</string>
+				<key>location</key>
+				<dict>
+					<key>address</key>
+					<string>90 John St.</string>
+					<key>cc</key>
+					<string>US</string>
+					<key>city</key>
+					<string>New York</string>
+					<key>country</key>
+					<string>United States</string>
+					<key>crossStreet</key>
+					<string>Gold St</string>
+					<key>distance</key>
+					<integer>1063</integer>
+					<key>formattedAddress</key>
+					<array>
+						<string>90 John St. (Gold St)</string>
+						<string>New York, NY 10038</string>
+						<string>United States</string>
+					</array>
+					<key>lat</key>
+					<real>40.708190000000002</real>
+					<key>lng</key>
+					<real>-74.006479999999996</real>
+					<key>postalCode</key>
+					<string>10038</string>
+					<key>state</key>
+					<string>NY</string>
+				</dict>
+				<key>name</key>
+				<string>Crunch</string>
+				<key>referralId</key>
+				<string>v-1422577824</string>
+				<key>specials</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>items</key>
+					<array/>
+				</dict>
+				<key>stats</key>
+				<dict>
+					<key>checkinsCount</key>
+					<integer>12921</integer>
+					<key>tipCount</key>
+					<integer>34</integer>
+					<key>usersCount</key>
+					<integer>1656</integer>
+				</dict>
+				<key>storeId</key>
+				<string>90 John St.</string>
+				<key>verified</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>categories</key>
+				<array>
+					<dict>
+						<key>icon</key>
+						<dict>
+							<key>prefix</key>
+							<string>https://ss3.4sqi.net/img/categories_v2/shops/gym_yogastudio_</string>
+							<key>suffix</key>
+							<string>.png</string>
+						</dict>
+						<key>id</key>
+						<string>4bf58dd8d48988d102941735</string>
+						<key>name</key>
+						<string>Yoga Studio</string>
+						<key>pluralName</key>
+						<string>Yoga Studios</string>
+						<key>primary</key>
+						<true/>
+						<key>shortName</key>
+						<string>Yoga Studio</string>
+					</dict>
+				</array>
+				<key>contact</key>
+				<dict/>
+				<key>hereNow</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>groups</key>
+					<array/>
+					<key>summary</key>
+					<string>Nobody here</string>
+				</dict>
+				<key>id</key>
+				<string>53ff2935498e161412b3e871</string>
+				<key>location</key>
+				<dict>
+					<key>cc</key>
+					<string>US</string>
+					<key>city</key>
+					<string>Brooklyn</string>
+					<key>country</key>
+					<string>United States</string>
+					<key>distance</key>
+					<integer>69</integer>
+					<key>formattedAddress</key>
+					<array>
+						<string>Brooklyn, NY</string>
+						<string>United States</string>
+					</array>
+					<key>lat</key>
+					<real>40.700111</real>
+					<key>lng</key>
+					<real>-73.999184999999997</real>
+					<key>state</key>
+					<string>NY</string>
+				</dict>
+				<key>name</key>
+				<string>Brooklyn Bridge Park - Pier 2 Yoga Court</string>
+				<key>referralId</key>
+				<string>v-1422577824</string>
+				<key>specials</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>items</key>
+					<array/>
+				</dict>
+				<key>stats</key>
+				<dict>
+					<key>checkinsCount</key>
+					<integer>6</integer>
+					<key>tipCount</key>
+					<integer>0</integer>
+					<key>usersCount</key>
+					<integer>3</integer>
+				</dict>
+				<key>verified</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>categories</key>
+				<array>
+					<dict>
+						<key>icon</key>
+						<dict>
+							<key>prefix</key>
+							<string>https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_</string>
+							<key>suffix</key>
+							<string>.png</string>
+						</dict>
+						<key>id</key>
+						<string>4bf58dd8d48988d163941735</string>
+						<key>name</key>
+						<string>Park</string>
+						<key>pluralName</key>
+						<string>Parks</string>
+						<key>primary</key>
+						<true/>
+						<key>shortName</key>
+						<string>Park</string>
+					</dict>
+				</array>
+				<key>contact</key>
+				<dict/>
+				<key>hereNow</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>groups</key>
+					<array/>
+					<key>summary</key>
+					<string>Nobody here</string>
+				</dict>
+				<key>id</key>
+				<string>4ebac60a0cd6904066e4108f</string>
+				<key>location</key>
+				<dict>
+					<key>address</key>
+					<string>Fulton Ferry Landing to Atlantic Ave.</string>
+					<key>cc</key>
+					<string>US</string>
+					<key>city</key>
+					<string>Brooklyn</string>
+					<key>country</key>
+					<string>United States</string>
+					<key>distance</key>
+					<integer>255</integer>
+					<key>formattedAddress</key>
+					<array>
+						<string>Fulton Ferry Landing to Atlantic Ave.</string>
+						<string>Brooklyn, NY 11201</string>
+						<string>United States</string>
+					</array>
+					<key>lat</key>
+					<real>40.700259802124791</real>
+					<key>lng</key>
+					<real>-73.996986150741577</real>
+					<key>postalCode</key>
+					<string>11201</string>
+					<key>state</key>
+					<string>NY</string>
+				</dict>
+				<key>name</key>
+				<string>Brookyn Bridge Park Greenway</string>
+				<key>referralId</key>
+				<string>v-1422577824</string>
+				<key>specials</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>items</key>
+					<array/>
+				</dict>
+				<key>stats</key>
+				<dict>
+					<key>checkinsCount</key>
+					<integer>578</integer>
+					<key>tipCount</key>
+					<integer>1</integer>
+					<key>usersCount</key>
+					<integer>394</integer>
+				</dict>
+				<key>verified</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>categories</key>
+				<array>
+					<dict>
+						<key>icon</key>
+						<dict>
+							<key>prefix</key>
+							<string>https://ss3.4sqi.net/img/categories_v2/arts_entertainment/default_</string>
+							<key>suffix</key>
+							<string>.png</string>
+						</dict>
+						<key>id</key>
+						<string>52e81612bcbc57f1066b79e9</string>
+						<key>name</key>
+						<string>Roller Rink</string>
+						<key>pluralName</key>
+						<string>Roller Rinks</string>
+						<key>primary</key>
+						<true/>
+						<key>shortName</key>
+						<string>Roller Rink</string>
+					</dict>
+				</array>
+				<key>contact</key>
+				<dict/>
+				<key>hereNow</key>
+				<dict>
+					<key>count</key>
+					<integer>1</integer>
+					<key>groups</key>
+					<array>
+						<dict>
+							<key>count</key>
+							<integer>1</integer>
+							<key>items</key>
+							<array/>
+							<key>name</key>
+							<string>Other people here</string>
+							<key>type</key>
+							<string>others</string>
+						</dict>
+					</array>
+					<key>summary</key>
+					<string>One person is checked in here</string>
+				</dict>
+				<key>id</key>
+				<string>53af4e97498e0bd7ae45c926</string>
+				<key>location</key>
+				<dict>
+					<key>address</key>
+					<string>Pier 2</string>
+					<key>cc</key>
+					<string>US</string>
+					<key>city</key>
+					<string>Brooklyn</string>
+					<key>country</key>
+					<string>United States</string>
+					<key>distance</key>
+					<integer>156</integer>
+					<key>formattedAddress</key>
+					<array>
+						<string>Pier 2</string>
+						<string>Brooklyn, NY</string>
+						<string>United States</string>
+					</array>
+					<key>lat</key>
+					<real>40.699832058617915</real>
+					<key>lng</key>
+					<real>-73.998162289885414</real>
+					<key>state</key>
+					<string>NY</string>
+				</dict>
+				<key>name</key>
+				<string>Brooklyn Bridge Park Skating Rink</string>
+				<key>referralId</key>
+				<string>v-1422577824</string>
+				<key>specials</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>items</key>
+					<array/>
+				</dict>
+				<key>stats</key>
+				<dict>
+					<key>checkinsCount</key>
+					<integer>98</integer>
+					<key>tipCount</key>
+					<integer>1</integer>
+					<key>usersCount</key>
+					<integer>93</integer>
+				</dict>
+				<key>verified</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>categories</key>
+				<array>
+					<dict>
+						<key>icon</key>
+						<dict>
+							<key>prefix</key>
+							<string>https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_</string>
+							<key>suffix</key>
+							<string>.png</string>
+						</dict>
+						<key>id</key>
+						<string>4bf58dd8d48988d163941735</string>
+						<key>name</key>
+						<string>Park</string>
+						<key>pluralName</key>
+						<string>Parks</string>
+						<key>primary</key>
+						<true/>
+						<key>shortName</key>
+						<string>Park</string>
+					</dict>
+				</array>
+				<key>contact</key>
+				<dict/>
+				<key>hereNow</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>groups</key>
+					<array/>
+					<key>summary</key>
+					<string>Nobody here</string>
+				</dict>
+				<key>id</key>
+				<string>42377700f964a52024201fe3</string>
+				<key>location</key>
+				<dict>
+					<key>address</key>
+					<string>Columbia Heights</string>
+					<key>cc</key>
+					<string>US</string>
+					<key>city</key>
+					<string>Brooklyn</string>
+					<key>country</key>
+					<string>United States</string>
+					<key>crossStreet</key>
+					<string>btwn Remsen &amp; Orange</string>
+					<key>distance</key>
+					<integer>342</integer>
+					<key>formattedAddress</key>
+					<array>
+						<string>Columbia Heights (btwn Remsen &amp; Orange)</string>
+						<string>Brooklyn, NY 11201</string>
+						<string>United States</string>
+					</array>
+					<key>lat</key>
+					<real>40.698291377159812</real>
+					<key>lng</key>
+					<real>-73.996632099151611</real>
+					<key>postalCode</key>
+					<string>11201</string>
+					<key>state</key>
+					<string>NY</string>
+				</dict>
+				<key>name</key>
+				<string>Brooklyn Heights Promenade</string>
+				<key>referralId</key>
+				<string>v-1422577824</string>
+				<key>specials</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>items</key>
+					<array/>
+				</dict>
+				<key>stats</key>
+				<dict>
+					<key>checkinsCount</key>
+					<integer>18158</integer>
+					<key>tipCount</key>
+					<integer>134</integer>
+					<key>usersCount</key>
+					<integer>8754</integer>
+				</dict>
+				<key>url</key>
+				<string>http://nyharborparks.org/visit/brhe.html</string>
+				<key>verified</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>categories</key>
+				<array>
+					<dict>
+						<key>icon</key>
+						<dict>
+							<key>prefix</key>
+							<string>https://ss3.4sqi.net/img/categories_v2/parks_outdoors/pool_</string>
+							<key>suffix</key>
+							<string>.png</string>
+						</dict>
+						<key>id</key>
+						<string>4bf58dd8d48988d15e941735</string>
+						<key>name</key>
+						<string>Pool</string>
+						<key>pluralName</key>
+						<string>Pools</string>
+						<key>primary</key>
+						<true/>
+						<key>shortName</key>
+						<string>Pool</string>
+					</dict>
+				</array>
+				<key>contact</key>
+				<dict/>
+				<key>hereNow</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>groups</key>
+					<array/>
+					<key>summary</key>
+					<string>Nobody here</string>
+				</dict>
+				<key>id</key>
+				<string>4ff6de22e4b02ca33c0a04fb</string>
+				<key>location</key>
+				<dict>
+					<key>cc</key>
+					<string>US</string>
+					<key>city</key>
+					<string>Brooklyn</string>
+					<key>country</key>
+					<string>United States</string>
+					<key>distance</key>
+					<integer>279</integer>
+					<key>formattedAddress</key>
+					<array>
+						<string>Brooklyn, NY 11201</string>
+						<string>United States</string>
+					</array>
+					<key>lat</key>
+					<real>40.699938955308454</real>
+					<key>lng</key>
+					<real>-73.996693178973246</real>
+					<key>postalCode</key>
+					<string>11201</string>
+					<key>state</key>
+					<string>NY</string>
+				</dict>
+				<key>name</key>
+				<string>Brooklyn Bridge Park Pop Up Pool</string>
+				<key>referralId</key>
+				<string>v-1422577824</string>
+				<key>specials</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>items</key>
+					<array/>
+				</dict>
+				<key>stats</key>
+				<dict>
+					<key>checkinsCount</key>
+					<integer>1003</integer>
+					<key>tipCount</key>
+					<integer>13</integer>
+					<key>usersCount</key>
+					<integer>610</integer>
+				</dict>
+				<key>verified</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>categories</key>
+				<array>
+					<dict>
+						<key>icon</key>
+						<dict>
+							<key>prefix</key>
+							<string>https://ss3.4sqi.net/img/categories_v2/shops/salon_barber_</string>
+							<key>suffix</key>
+							<string>.png</string>
+						</dict>
+						<key>id</key>
+						<string>4bf58dd8d48988d110951735</string>
+						<key>name</key>
+						<string>Salon / Barbershop</string>
+						<key>pluralName</key>
+						<string>Salons / Barbershops</string>
+						<key>primary</key>
+						<true/>
+						<key>shortName</key>
+						<string>Salon / Barbershop</string>
+					</dict>
+				</array>
+				<key>contact</key>
+				<dict/>
+				<key>hereNow</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>groups</key>
+					<array/>
+					<key>summary</key>
+					<string>Nobody here</string>
+				</dict>
+				<key>id</key>
+				<string>4f2c1bbae4b0ccfb1d99b510</string>
+				<key>location</key>
+				<dict>
+					<key>cc</key>
+					<string>US</string>
+					<key>country</key>
+					<string>United States</string>
+					<key>distance</key>
+					<integer>103</integer>
+					<key>formattedAddress</key>
+					<array>
+						<string>New York</string>
+						<string>United States</string>
+					</array>
+					<key>lat</key>
+					<real>40.699565887451172</real>
+					<key>lng</key>
+					<real>-74.001083374023438</real>
+					<key>state</key>
+					<string>New York</string>
+				</dict>
+				<key>name</key>
+				<string>kk hair salon</string>
+				<key>referralId</key>
+				<string>v-1422577824</string>
+				<key>specials</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>items</key>
+					<array/>
+				</dict>
+				<key>stats</key>
+				<dict>
+					<key>checkinsCount</key>
+					<integer>1</integer>
+					<key>tipCount</key>
+					<integer>0</integer>
+					<key>usersCount</key>
+					<integer>1</integer>
+				</dict>
+				<key>verified</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>categories</key>
+				<array/>
+				<key>contact</key>
+				<dict/>
+				<key>hereNow</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>groups</key>
+					<array/>
+					<key>summary</key>
+					<string>Nobody here</string>
+				</dict>
+				<key>id</key>
+				<string>4d2cb2c677a2a1cd02c387b7</string>
+				<key>location</key>
+				<dict>
+					<key>address</key>
+					<string>80 Pine St</string>
+					<key>cc</key>
+					<string>US</string>
+					<key>city</key>
+					<string>New York</string>
+					<key>country</key>
+					<string>United States</string>
+					<key>crossStreet</key>
+					<string>Water St</string>
+					<key>distance</key>
+					<integer>119</integer>
+					<key>formattedAddress</key>
+					<array>
+						<string>80 Pine St (Water St)</string>
+						<string>New York, NY 10005</string>
+						<string>United States</string>
+					</array>
+					<key>lat</key>
+					<real>40.698977999999997</real>
+					<key>lng</key>
+					<real>-74.000429999999994</real>
+					<key>postalCode</key>
+					<string>10005</string>
+					<key>state</key>
+					<string>NY</string>
+				</dict>
+				<key>name</key>
+				<string>QBE</string>
+				<key>referralId</key>
+				<string>v-1422577824</string>
+				<key>specials</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>items</key>
+					<array/>
+				</dict>
+				<key>stats</key>
+				<dict>
+					<key>checkinsCount</key>
+					<integer>1</integer>
+					<key>tipCount</key>
+					<integer>0</integer>
+					<key>usersCount</key>
+					<integer>1</integer>
+				</dict>
+				<key>verified</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>categories</key>
+				<array/>
+				<key>contact</key>
+				<dict/>
+				<key>hereNow</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>groups</key>
+					<array/>
+					<key>summary</key>
+					<string>Nobody here</string>
+				</dict>
+				<key>id</key>
+				<string>4d9788e5daec224b4642333e</string>
+				<key>location</key>
+				<dict>
+					<key>address</key>
+					<string>140 Elgar Place</string>
+					<key>cc</key>
+					<string>US</string>
+					<key>city</key>
+					<string>Bronx</string>
+					<key>country</key>
+					<string>United States</string>
+					<key>distance</key>
+					<integer>119</integer>
+					<key>formattedAddress</key>
+					<array>
+						<string>140 Elgar Place</string>
+						<string>Bronx, NY</string>
+						<string>United States</string>
+					</array>
+					<key>lat</key>
+					<real>40.698977999999997</real>
+					<key>lng</key>
+					<real>-74.000429999999994</real>
+					<key>state</key>
+					<string>NY</string>
+				</dict>
+				<key>name</key>
+				<string>Dr Shur</string>
+				<key>referralId</key>
+				<string>v-1422577824</string>
+				<key>specials</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>items</key>
+					<array/>
+				</dict>
+				<key>stats</key>
+				<dict>
+					<key>checkinsCount</key>
+					<integer>1</integer>
+					<key>tipCount</key>
+					<integer>0</integer>
+					<key>usersCount</key>
+					<integer>1</integer>
+				</dict>
+				<key>verified</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>categories</key>
+				<array>
+					<dict>
+						<key>icon</key>
+						<dict>
+							<key>prefix</key>
+							<string>https://ss3.4sqi.net/img/categories_v2/building/medical_doctorsoffice_</string>
+							<key>suffix</key>
+							<string>.png</string>
+						</dict>
+						<key>id</key>
+						<string>4bf58dd8d48988d177941735</string>
+						<key>name</key>
+						<string>Doctor's Office</string>
+						<key>pluralName</key>
+						<string>Doctor's Offices</string>
+						<key>primary</key>
+						<true/>
+						<key>shortName</key>
+						<string>Doctor's Office</string>
+					</dict>
+				</array>
+				<key>contact</key>
+				<dict/>
+				<key>hereNow</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>groups</key>
+					<array/>
+					<key>summary</key>
+					<string>Nobody here</string>
+				</dict>
+				<key>id</key>
+				<string>4dac4c974df01c19b1b0fc82</string>
+				<key>location</key>
+				<dict>
+					<key>address</key>
+					<string>530 1st Ave</string>
+					<key>cc</key>
+					<string>US</string>
+					<key>city</key>
+					<string>New York</string>
+					<key>country</key>
+					<string>United States</string>
+					<key>crossStreet</key>
+					<string>30th street</string>
+					<key>distance</key>
+					<integer>119</integer>
+					<key>formattedAddress</key>
+					<array>
+						<string>530 1st Ave (30th street)</string>
+						<string>New York, NY 10016</string>
+						<string>United States</string>
+					</array>
+					<key>lat</key>
+					<real>40.698977999999997</real>
+					<key>lng</key>
+					<real>-74.000429999999994</real>
+					<key>postalCode</key>
+					<string>10016</string>
+					<key>state</key>
+					<string>NY</string>
+				</dict>
+				<key>name</key>
+				<string>Internal Medicine Associates</string>
+				<key>referralId</key>
+				<string>v-1422577824</string>
+				<key>specials</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>items</key>
+					<array/>
+				</dict>
+				<key>stats</key>
+				<dict>
+					<key>checkinsCount</key>
+					<integer>2</integer>
+					<key>tipCount</key>
+					<integer>0</integer>
+					<key>usersCount</key>
+					<integer>2</integer>
+				</dict>
+				<key>verified</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>categories</key>
+				<array>
+					<dict>
+						<key>icon</key>
+						<dict>
+							<key>prefix</key>
+							<string>https://ss3.4sqi.net/img/categories_v2/education/residencehall_</string>
+							<key>suffix</key>
+							<string>.png</string>
+						</dict>
+						<key>id</key>
+						<string>4bf58dd8d48988d1a3941735</string>
+						<key>name</key>
+						<string>College Residence Hall</string>
+						<key>pluralName</key>
+						<string>College Residence Halls</string>
+						<key>primary</key>
+						<true/>
+						<key>shortName</key>
+						<string>Residence Hall</string>
+					</dict>
+				</array>
+				<key>contact</key>
+				<dict/>
+				<key>hereNow</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>groups</key>
+					<array/>
+					<key>summary</key>
+					<string>Nobody here</string>
+				</dict>
+				<key>id</key>
+				<string>4cb92bdc7148f04d9336d5ab</string>
+				<key>location</key>
+				<dict>
+					<key>address</key>
+					<string>95 Wall St</string>
+					<key>cc</key>
+					<string>US</string>
+					<key>city</key>
+					<string>New York</string>
+					<key>country</key>
+					<string>United States</string>
+					<key>crossStreet</key>
+					<string>Water st</string>
+					<key>distance</key>
+					<integer>124</integer>
+					<key>formattedAddress</key>
+					<array>
+						<string>95 Wall St (Water st)</string>
+						<string>New York, NY 10005</string>
+						<string>United States</string>
+					</array>
+					<key>lat</key>
+					<real>40.700248999999999</real>
+					<key>lng</key>
+					<real>-74.001441999999997</real>
+					<key>postalCode</key>
+					<string>10005</string>
+					<key>state</key>
+					<string>NY</string>
+				</dict>
+				<key>name</key>
+				<string>Livys apartment !</string>
+				<key>referralId</key>
+				<string>v-1422577824</string>
+				<key>specials</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>items</key>
+					<array/>
+				</dict>
+				<key>stats</key>
+				<dict>
+					<key>checkinsCount</key>
+					<integer>1</integer>
+					<key>tipCount</key>
+					<integer>0</integer>
+					<key>usersCount</key>
+					<integer>1</integer>
+				</dict>
+				<key>verified</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>categories</key>
+				<array>
+					<dict>
+						<key>icon</key>
+						<dict>
+							<key>prefix</key>
+							<string>https://ss3.4sqi.net/img/categories_v2/food/streetfood_</string>
+							<key>suffix</key>
+							<string>.png</string>
+						</dict>
+						<key>id</key>
+						<string>53e0feef498e5aac066fd8a9</string>
+						<key>name</key>
+						<string>Street Food Gathering</string>
+						<key>pluralName</key>
+						<string>Street Food Gatherings</string>
+						<key>primary</key>
+						<true/>
+						<key>shortName</key>
+						<string>Street Food Gathering</string>
+					</dict>
+				</array>
+				<key>contact</key>
+				<dict>
+					<key>twitter</key>
+					<string>bkflea</string>
+				</dict>
+				<key>hereNow</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>groups</key>
+					<array/>
+					<key>summary</key>
+					<string>Nobody here</string>
+				</dict>
+				<key>id</key>
+				<string>540ca09f498e9d0f44e40791</string>
+				<key>location</key>
+				<dict>
+					<key>address</key>
+					<string>Pier 2 (at Brooklyn Bridge Park)</string>
+					<key>cc</key>
+					<string>US</string>
+					<key>city</key>
+					<string>Brooklyn</string>
+					<key>country</key>
+					<string>United States</string>
+					<key>distance</key>
+					<integer>262</integer>
+					<key>formattedAddress</key>
+					<array>
+						<string>Pier 2 (at Brooklyn Bridge Park)</string>
+						<string>Brooklyn, NY</string>
+						<string>United States</string>
+					</array>
+					<key>lat</key>
+					<real>40.699385939421227</real>
+					<key>lng</key>
+					<real>-73.996997331766323</real>
+					<key>state</key>
+					<string>NY</string>
+				</dict>
+				<key>name</key>
+				<string>Smorgasburg at Brooklyn Bridge Park - Pier 2</string>
+				<key>referralId</key>
+				<string>v-1422577824</string>
+				<key>specials</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>items</key>
+					<array/>
+				</dict>
+				<key>stats</key>
+				<dict>
+					<key>checkinsCount</key>
+					<integer>531</integer>
+					<key>tipCount</key>
+					<integer>6</integer>
+					<key>usersCount</key>
+					<integer>511</integer>
+				</dict>
+				<key>verified</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>categories</key>
+				<array>
+					<dict>
+						<key>icon</key>
+						<dict>
+							<key>prefix</key>
+							<string>https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_</string>
+							<key>suffix</key>
+							<string>.png</string>
+						</dict>
+						<key>id</key>
+						<string>4bf58dd8d48988d163941735</string>
+						<key>name</key>
+						<string>Park</string>
+						<key>pluralName</key>
+						<string>Parks</string>
+						<key>primary</key>
+						<true/>
+						<key>shortName</key>
+						<string>Park</string>
+					</dict>
+				</array>
+				<key>contact</key>
+				<dict/>
+				<key>hereNow</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>groups</key>
+					<array/>
+					<key>summary</key>
+					<string>Nobody here</string>
+				</dict>
+				<key>id</key>
+				<string>4c5435bf4623be9a62ee66f2</string>
+				<key>location</key>
+				<dict>
+					<key>address</key>
+					<string>214 Furman St</string>
+					<key>cc</key>
+					<string>US</string>
+					<key>city</key>
+					<string>Brooklyn</string>
+					<key>country</key>
+					<string>United States</string>
+					<key>crossStreet</key>
+					<string>Montague St</string>
+					<key>distance</key>
+					<integer>397</integer>
+					<key>formattedAddress</key>
+					<array>
+						<string>214 Furman St (Montague St)</string>
+						<string>Brooklyn, NY 11201</string>
+						<string>United States</string>
+					</array>
+					<key>lat</key>
+					<real>40.69662731765942</real>
+					<key>lng</key>
+					<real>-73.99846644034649</real>
+					<key>postalCode</key>
+					<string>11201</string>
+					<key>state</key>
+					<string>NY</string>
+				</dict>
+				<key>name</key>
+				<string>Brooklyn Bridge Park - Pier 4</string>
+				<key>referralId</key>
+				<string>v-1422577824</string>
+				<key>specials</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>items</key>
+					<array/>
+				</dict>
+				<key>stats</key>
+				<dict>
+					<key>checkinsCount</key>
+					<integer>1188</integer>
+					<key>tipCount</key>
+					<integer>3</integer>
+					<key>usersCount</key>
+					<integer>938</integer>
+				</dict>
+				<key>url</key>
+				<string>http://www.brooklynbridgepark.org/the-park/future-park/pier-4</string>
+				<key>verified</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>categories</key>
+				<array>
+					<dict>
+						<key>icon</key>
+						<dict>
+							<key>prefix</key>
+							<string>https://ss3.4sqi.net/img/categories_v2/food/cuban_</string>
+							<key>suffix</key>
+							<string>.png</string>
+						</dict>
+						<key>id</key>
+						<string>4bf58dd8d48988d154941735</string>
+						<key>name</key>
+						<string>Cuban Restaurant</string>
+						<key>pluralName</key>
+						<string>Cuban Restaurants</string>
+						<key>primary</key>
+						<true/>
+						<key>shortName</key>
+						<string>Cuban</string>
+					</dict>
+				</array>
+				<key>contact</key>
+				<dict/>
+				<key>hereNow</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>groups</key>
+					<array/>
+					<key>summary</key>
+					<string>Nobody here</string>
+				</dict>
+				<key>id</key>
+				<string>5054eb43e4b04ed4f0dd1b30</string>
+				<key>location</key>
+				<dict>
+					<key>cc</key>
+					<string>US</string>
+					<key>country</key>
+					<string>United States</string>
+					<key>distance</key>
+					<integer>144</integer>
+					<key>formattedAddress</key>
+					<array>
+						<string>New York</string>
+						<string>United States</string>
+					</array>
+					<key>lat</key>
+					<real>40.698749999999997</real>
+					<key>lng</key>
+					<real>-73.999529999999993</real>
+					<key>state</key>
+					<string>New York</string>
+				</dict>
+				<key>name</key>
+				<string>La cabana</string>
+				<key>referralId</key>
+				<string>v-1422577824</string>
+				<key>specials</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>items</key>
+					<array/>
+				</dict>
+				<key>stats</key>
+				<dict>
+					<key>checkinsCount</key>
+					<integer>4</integer>
+					<key>tipCount</key>
+					<integer>1</integer>
+					<key>usersCount</key>
+					<integer>4</integer>
+				</dict>
+				<key>verified</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>categories</key>
+				<array>
+					<dict>
+						<key>icon</key>
+						<dict>
+							<key>prefix</key>
+							<string>https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_</string>
+							<key>suffix</key>
+							<string>.png</string>
+						</dict>
+						<key>id</key>
+						<string>4bf58dd8d48988d163941735</string>
+						<key>name</key>
+						<string>Park</string>
+						<key>pluralName</key>
+						<string>Parks</string>
+						<key>primary</key>
+						<true/>
+						<key>shortName</key>
+						<string>Park</string>
+					</dict>
+				</array>
+				<key>contact</key>
+				<dict/>
+				<key>hereNow</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>groups</key>
+					<array/>
+					<key>summary</key>
+					<string>Nobody here</string>
+				</dict>
+				<key>id</key>
+				<string>5284fe6811d2114d599b3e15</string>
+				<key>location</key>
+				<dict>
+					<key>address</key>
+					<string>334 Furman St</string>
+					<key>cc</key>
+					<string>US</string>
+					<key>city</key>
+					<string>Brooklyn</string>
+					<key>country</key>
+					<string>United States</string>
+					<key>crossStreet</key>
+					<string>Clark St.</string>
+					<key>distance</key>
+					<integer>160</integer>
+					<key>formattedAddress</key>
+					<array>
+						<string>334 Furman St (Clark St.)</string>
+						<string>Brooklyn, NY 11201</string>
+						<string>United States</string>
+					</array>
+					<key>lat</key>
+					<real>40.699072246916238</real>
+					<key>lng</key>
+					<real>-73.998541831970215</real>
+					<key>postalCode</key>
+					<string>11201</string>
+					<key>state</key>
+					<string>NY</string>
+				</dict>
+				<key>name</key>
+				<string>Brooklyn Bridge Park - Pier 3</string>
+				<key>referralId</key>
+				<string>v-1422577824</string>
+				<key>specials</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>items</key>
+					<array/>
+				</dict>
+				<key>stats</key>
+				<dict>
+					<key>checkinsCount</key>
+					<integer>79</integer>
+					<key>tipCount</key>
+					<integer>1</integer>
+					<key>usersCount</key>
+					<integer>61</integer>
+				</dict>
+				<key>url</key>
+				<string>http://www.brooklynbridgepark.org/the-park/future-park/pier-3</string>
+				<key>verified</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>categories</key>
+				<array>
+					<dict>
+						<key>icon</key>
+						<dict>
+							<key>prefix</key>
+							<string>https://ss3.4sqi.net/img/categories_v2/food/asian_</string>
+							<key>suffix</key>
+							<string>.png</string>
+						</dict>
+						<key>id</key>
+						<string>4bf58dd8d48988d145941735</string>
+						<key>name</key>
+						<string>Chinese Restaurant</string>
+						<key>pluralName</key>
+						<string>Chinese Restaurants</string>
+						<key>primary</key>
+						<true/>
+						<key>shortName</key>
+						<string>Chinese</string>
+					</dict>
+				</array>
+				<key>contact</key>
+				<dict/>
+				<key>hereNow</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>groups</key>
+					<array/>
+					<key>summary</key>
+					<string>Nobody here</string>
+				</dict>
+				<key>id</key>
+				<string>51ec27ce498e6aba2b159f3a</string>
+				<key>location</key>
+				<dict>
+					<key>cc</key>
+					<string>US</string>
+					<key>city</key>
+					<string>New York</string>
+					<key>country</key>
+					<string>United States</string>
+					<key>distance</key>
+					<integer>166</integer>
+					<key>formattedAddress</key>
+					<array>
+						<string>New York, NY</string>
+						<string>United States</string>
+					</array>
+					<key>lat</key>
+					<real>40.701491509762057</real>
+					<key>lng</key>
+					<real>-73.999809287552992</real>
+					<key>state</key>
+					<string>NY</string>
+				</dict>
+				<key>name</key>
+				<string>China Max</string>
+				<key>referralId</key>
+				<string>v-1422577824</string>
+				<key>specials</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>items</key>
+					<array/>
+				</dict>
+				<key>stats</key>
+				<dict>
+					<key>checkinsCount</key>
+					<integer>6</integer>
+					<key>tipCount</key>
+					<integer>0</integer>
+					<key>usersCount</key>
+					<integer>3</integer>
+				</dict>
+				<key>verified</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>categories</key>
+				<array>
+					<dict>
+						<key>icon</key>
+						<dict>
+							<key>prefix</key>
+							<string>https://ss3.4sqi.net/img/categories_v2/travel/boat_</string>
+							<key>suffix</key>
+							<string>.png</string>
+						</dict>
+						<key>id</key>
+						<string>4bf58dd8d48988d12d951735</string>
+						<key>name</key>
+						<string>Boat or Ferry</string>
+						<key>pluralName</key>
+						<string>Boats or Ferries</string>
+						<key>primary</key>
+						<true/>
+						<key>shortName</key>
+						<string>Boat / Ferry</string>
+					</dict>
+				</array>
+				<key>contact</key>
+				<dict/>
+				<key>hereNow</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>groups</key>
+					<array/>
+					<key>summary</key>
+					<string>Nobody here</string>
+				</dict>
+				<key>id</key>
+				<string>4fd91ce8e4b0a8dbd1eddc69</string>
+				<key>location</key>
+				<dict>
+					<key>cc</key>
+					<string>US</string>
+					<key>country</key>
+					<string>United States</string>
+					<key>distance</key>
+					<integer>182</integer>
+					<key>formattedAddress</key>
+					<array>
+						<string>New York</string>
+						<string>United States</string>
+					</array>
+					<key>lat</key>
+					<real>40.699006108892192</real>
+					<key>lng</key>
+					<real>-74.001714507605016</real>
+					<key>state</key>
+					<string>New York</string>
+				</dict>
+				<key>name</key>
+				<string>SS Gawker</string>
+				<key>referralId</key>
+				<string>v-1422577824</string>
+				<key>specials</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>items</key>
+					<array/>
+				</dict>
+				<key>stats</key>
+				<dict>
+					<key>checkinsCount</key>
+					<integer>15</integer>
+					<key>tipCount</key>
+					<integer>1</integer>
+					<key>usersCount</key>
+					<integer>8</integer>
+				</dict>
+				<key>verified</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>categories</key>
+				<array>
+					<dict>
+						<key>icon</key>
+						<dict>
+							<key>prefix</key>
+							<string>https://ss3.4sqi.net/img/categories_v2/parks_outdoors/bridge_</string>
+							<key>suffix</key>
+							<string>.png</string>
+						</dict>
+						<key>id</key>
+						<string>4bf58dd8d48988d1df941735</string>
+						<key>name</key>
+						<string>Bridge</string>
+						<key>pluralName</key>
+						<string>Bridges</string>
+						<key>primary</key>
+						<true/>
+						<key>shortName</key>
+						<string>Bridge</string>
+					</dict>
+				</array>
+				<key>contact</key>
+				<dict/>
+				<key>hereNow</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>groups</key>
+					<array/>
+					<key>summary</key>
+					<string>Nobody here</string>
+				</dict>
+				<key>id</key>
+				<string>50bf8948e4b0b67e346ab18b</string>
+				<key>location</key>
+				<dict>
+					<key>cc</key>
+					<string>US</string>
+					<key>city</key>
+					<string>Brooklyn</string>
+					<key>country</key>
+					<string>United States</string>
+					<key>distance</key>
+					<integer>392</integer>
+					<key>formattedAddress</key>
+					<array>
+						<string>Brooklyn, NY 11201</string>
+						<string>United States</string>
+					</array>
+					<key>lat</key>
+					<real>40.70093935695725</real>
+					<key>lng</key>
+					<real>-73.995522473151865</real>
+					<key>postalCode</key>
+					<string>11201</string>
+					<key>state</key>
+					<string>NY</string>
+				</dict>
+				<key>name</key>
+				<string>Squibb Park Bridge</string>
+				<key>referralId</key>
+				<string>v-1422577824</string>
+				<key>specials</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>items</key>
+					<array/>
+				</dict>
+				<key>stats</key>
+				<dict>
+					<key>checkinsCount</key>
+					<integer>862</integer>
+					<key>tipCount</key>
+					<integer>13</integer>
+					<key>usersCount</key>
+					<integer>408</integer>
+				</dict>
+				<key>verified</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>categories</key>
+				<array>
+					<dict>
+						<key>icon</key>
+						<dict>
+							<key>prefix</key>
+							<string>https://ss3.4sqi.net/img/categories_v2/food/tapas_</string>
+							<key>suffix</key>
+							<string>.png</string>
+						</dict>
+						<key>id</key>
+						<string>4bf58dd8d48988d1db931735</string>
+						<key>name</key>
+						<string>Tapas Restaurant</string>
+						<key>pluralName</key>
+						<string>Tapas Restaurants</string>
+						<key>primary</key>
+						<true/>
+						<key>shortName</key>
+						<string>Tapas</string>
+					</dict>
+				</array>
+				<key>contact</key>
+				<dict/>
+				<key>hereNow</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>groups</key>
+					<array/>
+					<key>summary</key>
+					<string>Nobody here</string>
+				</dict>
+				<key>id</key>
+				<string>50397c85e4b0b7a03bc9f5d5</string>
+				<key>location</key>
+				<dict>
+					<key>cc</key>
+					<string>US</string>
+					<key>country</key>
+					<string>United States</string>
+					<key>distance</key>
+					<integer>186</integer>
+					<key>formattedAddress</key>
+					<array>
+						<string>New York</string>
+						<string>United States</string>
+					</array>
+					<key>lat</key>
+					<real>40.700711099999999</real>
+					<key>lng</key>
+					<real>-74.001994600000003</real>
+					<key>state</key>
+					<string>New York</string>
+				</dict>
+				<key>name</key>
+				<string>swallow</string>
+				<key>referralId</key>
+				<string>v-1422577824</string>
+				<key>specials</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>items</key>
+					<array/>
+				</dict>
+				<key>stats</key>
+				<dict>
+					<key>checkinsCount</key>
+					<integer>4</integer>
+					<key>tipCount</key>
+					<integer>0</integer>
+					<key>usersCount</key>
+					<integer>3</integer>
+				</dict>
+				<key>verified</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>categories</key>
+				<array>
+					<dict>
+						<key>icon</key>
+						<dict>
+							<key>prefix</key>
+							<string>https://ss3.4sqi.net/img/categories_v2/parks_outdoors/outdoors_</string>
+							<key>suffix</key>
+							<string>.png</string>
+						</dict>
+						<key>id</key>
+						<string>4bf58dd8d48988d162941735</string>
+						<key>name</key>
+						<string>Other Great Outdoors</string>
+						<key>pluralName</key>
+						<string>Other Great Outdoors</string>
+						<key>primary</key>
+						<true/>
+						<key>shortName</key>
+						<string>Other Outdoors</string>
+					</dict>
+				</array>
+				<key>contact</key>
+				<dict/>
+				<key>hereNow</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>groups</key>
+					<array/>
+					<key>summary</key>
+					<string>Nobody here</string>
+				</dict>
+				<key>id</key>
+				<string>4c48dc0520ab1b8d6118fd15</string>
+				<key>location</key>
+				<dict>
+					<key>address</key>
+					<string>1 Brooklyn Bridge Park Pier 1</string>
+					<key>cc</key>
+					<string>US</string>
+					<key>city</key>
+					<string>Brooklyn</string>
+					<key>country</key>
+					<string>United States</string>
+					<key>distance</key>
+					<integer>291</integer>
+					<key>formattedAddress</key>
+					<array>
+						<string>1 Brooklyn Bridge Park Pier 1</string>
+						<string>Brooklyn, NY 11201</string>
+						<string>United States</string>
+					</array>
+					<key>lat</key>
+					<real>40.701675999999999</real>
+					<key>lng</key>
+					<real>-73.997339999999994</real>
+					<key>postalCode</key>
+					<string>11201</string>
+					<key>state</key>
+					<string>NY</string>
+				</dict>
+				<key>name</key>
+				<string>Movies With A View</string>
+				<key>referralId</key>
+				<string>v-1422577824</string>
+				<key>specials</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>items</key>
+					<array/>
+				</dict>
+				<key>stats</key>
+				<dict>
+					<key>checkinsCount</key>
+					<integer>811</integer>
+					<key>tipCount</key>
+					<integer>5</integer>
+					<key>usersCount</key>
+					<integer>716</integer>
+				</dict>
+				<key>verified</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>categories</key>
+				<array>
+					<dict>
+						<key>icon</key>
+						<dict>
+							<key>prefix</key>
+							<string>https://ss3.4sqi.net/img/categories_v2/nightlife/divebar_</string>
+							<key>suffix</key>
+							<string>.png</string>
+						</dict>
+						<key>id</key>
+						<string>4bf58dd8d48988d118941735</string>
+						<key>name</key>
+						<string>Dive Bar</string>
+						<key>pluralName</key>
+						<string>Dive Bars</string>
+						<key>primary</key>
+						<true/>
+						<key>shortName</key>
+						<string>Dive Bar</string>
+					</dict>
+				</array>
+				<key>contact</key>
+				<dict/>
+				<key>hereNow</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>groups</key>
+					<array/>
+					<key>summary</key>
+					<string>Nobody here</string>
+				</dict>
+				<key>id</key>
+				<string>4d5dca375c39b1f73a39e449</string>
+				<key>location</key>
+				<dict>
+					<key>address</key>
+					<string>45 Wall</string>
+					<key>cc</key>
+					<string>US</string>
+					<key>city</key>
+					<string>New York</string>
+					<key>country</key>
+					<string>United States</string>
+					<key>distance</key>
+					<integer>206</integer>
+					<key>formattedAddress</key>
+					<array>
+						<string>45 Wall</string>
+						<string>New York, NY</string>
+						<string>United States</string>
+					</array>
+					<key>lat</key>
+					<real>40.701608999999998</real>
+					<key>lng</key>
+					<real>-73.998773999999997</real>
+					<key>state</key>
+					<string>NY</string>
+				</dict>
+				<key>name</key>
+				<string>Blackout @ BJ's on Wall</string>
+				<key>referralId</key>
+				<string>v-1422577824</string>
+				<key>specials</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>items</key>
+					<array/>
+				</dict>
+				<key>stats</key>
+				<dict>
+					<key>checkinsCount</key>
+					<integer>1</integer>
+					<key>tipCount</key>
+					<integer>0</integer>
+					<key>usersCount</key>
+					<integer>1</integer>
+				</dict>
+				<key>verified</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>categories</key>
+				<array>
+					<dict>
+						<key>icon</key>
+						<dict>
+							<key>prefix</key>
+							<string>https://ss3.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_</string>
+							<key>suffix</key>
+							<string>.png</string>
+						</dict>
+						<key>id</key>
+						<string>4f2a25ac4b909258e854f55f</string>
+						<key>name</key>
+						<string>Neighborhood</string>
+						<key>pluralName</key>
+						<string>Neighborhoods</string>
+						<key>primary</key>
+						<true/>
+						<key>shortName</key>
+						<string>Neighborhood</string>
+					</dict>
+				</array>
+				<key>contact</key>
+				<dict/>
+				<key>hereNow</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>groups</key>
+					<array/>
+					<key>summary</key>
+					<string>Nobody here</string>
+				</dict>
+				<key>id</key>
+				<string>50f42c19e4b0966177888196</string>
+				<key>location</key>
+				<dict>
+					<key>cc</key>
+					<string>US</string>
+					<key>city</key>
+					<string>Brooklyn</string>
+					<key>country</key>
+					<string>United States</string>
+					<key>distance</key>
+					<integer>231</integer>
+					<key>formattedAddress</key>
+					<array>
+						<string>Brooklyn, NY 11201</string>
+						<string>United States</string>
+					</array>
+					<key>lat</key>
+					<real>40.698481083286104</real>
+					<key>lng</key>
+					<real>-74.001875187947419</real>
+					<key>postalCode</key>
+					<string>11201</string>
+					<key>state</key>
+					<string>NY</string>
+				</dict>
+				<key>name</key>
+				<string>Columbia Hts at Clark St</string>
+				<key>referralId</key>
+				<string>v-1422577824</string>
+				<key>specials</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>items</key>
+					<array/>
+				</dict>
+				<key>stats</key>
+				<dict>
+					<key>checkinsCount</key>
+					<integer>6</integer>
+					<key>tipCount</key>
+					<integer>0</integer>
+					<key>usersCount</key>
+					<integer>6</integer>
+				</dict>
+				<key>verified</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>categories</key>
+				<array>
+					<dict>
+						<key>icon</key>
+						<dict>
+							<key>prefix</key>
+							<string>https://ss3.4sqi.net/img/categories_v2/parks_outdoors/sceniclookout_</string>
+							<key>suffix</key>
+							<string>.png</string>
+						</dict>
+						<key>id</key>
+						<string>4bf58dd8d48988d165941735</string>
+						<key>name</key>
+						<string>Scenic Lookout</string>
+						<key>pluralName</key>
+						<string>Scenic Lookouts</string>
+						<key>primary</key>
+						<true/>
+						<key>shortName</key>
+						<string>Scenic Lookout</string>
+					</dict>
+				</array>
+				<key>contact</key>
+				<dict>
+					<key>facebook</key>
+					<string>104475634308</string>
+					<key>facebookName</key>
+					<string>Bartow-Pell Mansion Museum</string>
+					<key>facebookUsername</key>
+					<string>BartowPell</string>
+					<key>twitter</key>
+					<string>nycparks</string>
+				</dict>
+				<key>hereNow</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>groups</key>
+					<array/>
+					<key>summary</key>
+					<string>Nobody here</string>
+				</dict>
+				<key>id</key>
+				<string>4a9acb4bf964a520c13220e3</string>
+				<key>location</key>
+				<dict>
+					<key>address</key>
+					<string>Columbia Heights</string>
+					<key>cc</key>
+					<string>US</string>
+					<key>city</key>
+					<string>New York</string>
+					<key>country</key>
+					<string>United States</string>
+					<key>crossStreet</key>
+					<string>Cranberry St.</string>
+					<key>distance</key>
+					<integer>409</integer>
+					<key>formattedAddress</key>
+					<array>
+						<string>Columbia Heights (Cranberry St.)</string>
+						<string>New York, NY</string>
+						<string>United States</string>
+					</array>
+					<key>lat</key>
+					<real>40.700715297135119</real>
+					<key>lng</key>
+					<real>-73.995237350463867</real>
+					<key>state</key>
+					<string>NY</string>
+				</dict>
+				<key>name</key>
+				<string>Fruit Street Sitting Area</string>
+				<key>referralId</key>
+				<string>v-1422577824</string>
+				<key>specials</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>items</key>
+					<array/>
+				</dict>
+				<key>stats</key>
+				<dict>
+					<key>checkinsCount</key>
+					<integer>943</integer>
+					<key>tipCount</key>
+					<integer>2</integer>
+					<key>usersCount</key>
+					<integer>416</integer>
+				</dict>
+				<key>url</key>
+				<string>http://nyc.gov/parks</string>
+				<key>verified</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>categories</key>
+				<array>
+					<dict>
+						<key>icon</key>
+						<dict>
+							<key>prefix</key>
+							<string>https://ss3.4sqi.net/img/categories_v2/food/icecream_</string>
+							<key>suffix</key>
+							<string>.png</string>
+						</dict>
+						<key>id</key>
+						<string>4bf58dd8d48988d1c9941735</string>
+						<key>name</key>
+						<string>Ice Cream Shop</string>
+						<key>pluralName</key>
+						<string>Ice Cream Shops</string>
+						<key>primary</key>
+						<true/>
+						<key>shortName</key>
+						<string>Ice Cream</string>
+					</dict>
+				</array>
+				<key>contact</key>
+				<dict>
+					<key>twitter</key>
+					<string>bluemarblebk</string>
+				</dict>
+				<key>hereNow</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>groups</key>
+					<array/>
+					<key>summary</key>
+					<string>Nobody here</string>
+				</dict>
+				<key>id</key>
+				<string>4c3a5ad83849c92880e0c2b1</string>
+				<key>location</key>
+				<dict>
+					<key>address</key>
+					<string>Brooklyn Bridge Park - Pier 1</string>
+					<key>cc</key>
+					<string>US</string>
+					<key>city</key>
+					<string>Brooklyn</string>
+					<key>country</key>
+					<string>United States</string>
+					<key>distance</key>
+					<integer>230</integer>
+					<key>formattedAddress</key>
+					<array>
+						<string>Brooklyn Bridge Park - Pier 1</string>
+						<string>Brooklyn, NY 11201</string>
+						<string>United States</string>
+					</array>
+					<key>lat</key>
+					<real>40.701365998889678</real>
+					<key>lng</key>
+					<real>-73.997941017150879</real>
+					<key>postalCode</key>
+					<string>11201</string>
+					<key>state</key>
+					<string>NY</string>
+				</dict>
+				<key>name</key>
+				<string>Blue Marble Ice Cream</string>
+				<key>referralId</key>
+				<string>v-1422577824</string>
+				<key>specials</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>items</key>
+					<array/>
+				</dict>
+				<key>stats</key>
+				<dict>
+					<key>checkinsCount</key>
+					<integer>153</integer>
+					<key>tipCount</key>
+					<integer>17</integer>
+					<key>usersCount</key>
+					<integer>127</integer>
+				</dict>
+				<key>url</key>
+				<string>https://www.facebook.com/pages/Blue-Marble-Ice-Cream/415075860304</string>
+				<key>verified</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>categories</key>
+				<array>
+					<dict>
+						<key>icon</key>
+						<dict>
+							<key>prefix</key>
+							<string>https://ss3.4sqi.net/img/categories_v2/parks_outdoors/basketballcourt_</string>
+							<key>suffix</key>
+							<string>.png</string>
+						</dict>
+						<key>id</key>
+						<string>4bf58dd8d48988d1e1941735</string>
+						<key>name</key>
+						<string>Basketball Court</string>
+						<key>pluralName</key>
+						<string>Basketball Courts</string>
+						<key>primary</key>
+						<true/>
+						<key>shortName</key>
+						<string>Basketball Court</string>
+					</dict>
+				</array>
+				<key>contact</key>
+				<dict/>
+				<key>hereNow</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>groups</key>
+					<array/>
+					<key>summary</key>
+					<string>Nobody here</string>
+				</dict>
+				<key>id</key>
+				<string>51fd66fb498e523e9b4f2e47</string>
+				<key>location</key>
+				<dict>
+					<key>cc</key>
+					<string>US</string>
+					<key>city</key>
+					<string>Brooklyn</string>
+					<key>country</key>
+					<string>United States</string>
+					<key>distance</key>
+					<integer>257</integer>
+					<key>formattedAddress</key>
+					<array>
+						<string>Brooklyn, NY</string>
+						<string>United States</string>
+					</array>
+					<key>lat</key>
+					<real>40.700251000000002</real>
+					<key>lng</key>
+					<real>-73.996967999999995</real>
+					<key>state</key>
+					<string>NY</string>
+				</dict>
+				<key>name</key>
+				<string>Basketball Tree</string>
+				<key>referralId</key>
+				<string>v-1422577824</string>
+				<key>specials</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>items</key>
+					<array/>
+				</dict>
+				<key>stats</key>
+				<dict>
+					<key>checkinsCount</key>
+					<integer>2</integer>
+					<key>tipCount</key>
+					<integer>0</integer>
+					<key>usersCount</key>
+					<integer>2</integer>
+				</dict>
+				<key>verified</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>categories</key>
+				<array>
+					<dict>
+						<key>icon</key>
+						<dict>
+							<key>prefix</key>
+							<string>https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_</string>
+							<key>suffix</key>
+							<string>.png</string>
+						</dict>
+						<key>id</key>
+						<string>4bf58dd8d48988d163941735</string>
+						<key>name</key>
+						<string>Park</string>
+						<key>pluralName</key>
+						<string>Parks</string>
+						<key>primary</key>
+						<true/>
+						<key>shortName</key>
+						<string>Park</string>
+					</dict>
+				</array>
+				<key>contact</key>
+				<dict/>
+				<key>hereNow</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>groups</key>
+					<array/>
+					<key>summary</key>
+					<string>Nobody here</string>
+				</dict>
+				<key>id</key>
+				<string>4c67633d8e9120a1d3ddda64</string>
+				<key>location</key>
+				<dict>
+					<key>address</key>
+					<string>Park Place</string>
+					<key>cc</key>
+					<string>US</string>
+					<key>city</key>
+					<string>Brooklyn</string>
+					<key>country</key>
+					<string>United States</string>
+					<key>crossStreet</key>
+					<string>Washington</string>
+					<key>distance</key>
+					<integer>251</integer>
+					<key>formattedAddress</key>
+					<array>
+						<string>Park Place (Washington)</string>
+						<string>Brooklyn, NY 11238</string>
+						<string>United States</string>
+					</array>
+					<key>lat</key>
+					<real>40.701500000000003</real>
+					<key>lng</key>
+					<real>-73.997766810000002</real>
+					<key>postalCode</key>
+					<string>11238</string>
+					<key>state</key>
+					<string>NY</string>
+				</dict>
+				<key>name</key>
+				<string>Shroud Park</string>
+				<key>referralId</key>
+				<string>v-1422577824</string>
+				<key>specials</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>items</key>
+					<array/>
+				</dict>
+				<key>stats</key>
+				<dict>
+					<key>checkinsCount</key>
+					<integer>11</integer>
+					<key>tipCount</key>
+					<integer>1</integer>
+					<key>usersCount</key>
+					<integer>10</integer>
+				</dict>
+				<key>verified</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>categories</key>
+				<array>
+					<dict>
+						<key>icon</key>
+						<dict>
+							<key>prefix</key>
+							<string>https://ss3.4sqi.net/img/categories_v2/arts_entertainment/musicvenue_</string>
+							<key>suffix</key>
+							<string>.png</string>
+						</dict>
+						<key>id</key>
+						<string>5032792091d4c4b30a586d5c</string>
+						<key>name</key>
+						<string>Concert Hall</string>
+						<key>pluralName</key>
+						<string>Concert Halls</string>
+						<key>primary</key>
+						<true/>
+						<key>shortName</key>
+						<string>Concert Hall</string>
+					</dict>
+				</array>
+				<key>contact</key>
+				<dict/>
+				<key>hereNow</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>groups</key>
+					<array/>
+					<key>summary</key>
+					<string>Nobody here</string>
+				</dict>
+				<key>id</key>
+				<string>4e1e2225ae60ef672d8572d0</string>
+				<key>location</key>
+				<dict>
+					<key>address</key>
+					<string>Brooklyn Bridge Park</string>
+					<key>cc</key>
+					<string>US</string>
+					<key>city</key>
+					<string>New York</string>
+					<key>country</key>
+					<string>United States</string>
+					<key>distance</key>
+					<integer>293</integer>
+					<key>formattedAddress</key>
+					<array>
+						<string>Brooklyn Bridge Park</string>
+						<string>New York, NY 11201</string>
+						<string>United States</string>
+					</array>
+					<key>lat</key>
+					<real>40.701735999999997</real>
+					<key>lng</key>
+					<real>-73.997377</real>
+					<key>postalCode</key>
+					<string>11201</string>
+					<key>state</key>
+					<string>NY</string>
+				</dict>
+				<key>name</key>
+				<string>Metropolitan Opera In The Park</string>
+				<key>referralId</key>
+				<string>v-1422577824</string>
+				<key>specials</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>items</key>
+					<array/>
+				</dict>
+				<key>stats</key>
+				<dict>
+					<key>checkinsCount</key>
+					<integer>84</integer>
+					<key>tipCount</key>
+					<integer>1</integer>
+					<key>usersCount</key>
+					<integer>78</integer>
+				</dict>
+				<key>verified</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>categories</key>
+				<array>
+					<dict>
+						<key>icon</key>
+						<dict>
+							<key>prefix</key>
+							<string>https://ss3.4sqi.net/img/categories_v2/food/streetfood_</string>
+							<key>suffix</key>
+							<string>.png</string>
+						</dict>
+						<key>id</key>
+						<string>4bf58dd8d48988d1cb941735</string>
+						<key>name</key>
+						<string>Food Truck</string>
+						<key>pluralName</key>
+						<string>Food Trucks</string>
+						<key>primary</key>
+						<true/>
+						<key>shortName</key>
+						<string>Food Truck</string>
+					</dict>
+				</array>
+				<key>contact</key>
+				<dict/>
+				<key>hereNow</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>groups</key>
+					<array/>
+					<key>summary</key>
+					<string>Nobody here</string>
+				</dict>
+				<key>id</key>
+				<string>525197f0498e756ac12a0ebe</string>
+				<key>location</key>
+				<dict>
+					<key>address</key>
+					<string>Smorgasburg (DUMBO)</string>
+					<key>cc</key>
+					<string>US</string>
+					<key>city</key>
+					<string>Brooklyn</string>
+					<key>country</key>
+					<string>United States</string>
+					<key>distance</key>
+					<integer>252</integer>
+					<key>formattedAddress</key>
+					<array>
+						<string>Smorgasburg (DUMBO)</string>
+						<string>Brooklyn, NY</string>
+						<string>United States</string>
+					</array>
+					<key>lat</key>
+					<real>40.699231569579645</real>
+					<key>lng</key>
+					<real>-73.997186709676654</real>
+					<key>state</key>
+					<string>NY</string>
+				</dict>
+				<key>name</key>
+				<string>Bamboo Bites</string>
+				<key>referralId</key>
+				<string>v-1422577824</string>
+				<key>specials</key>
+				<dict>
+					<key>count</key>
+					<integer>0</integer>
+					<key>items</key>
+					<array/>
+				</dict>
+				<key>stats</key>
+				<dict>
+					<key>checkinsCount</key>
+					<integer>11</integer>
+					<key>tipCount</key>
+					<integer>0</integer>
+					<key>usersCount</key>
+					<integer>7</integer>
+				</dict>
+				<key>verified</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>
