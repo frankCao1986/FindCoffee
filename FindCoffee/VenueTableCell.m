@@ -38,11 +38,13 @@
 
     [self.contentView setBackgroundColor:[UIColor whiteColor]];
 
-    [self.showMapBtn setBackgroundImage:[UIImage imageNamed:@"sharemore_location"] forState:UIControlStateNormal];
+
+    [self.showMapBtn setImage:[UIImage imageNamed:@"current_location"] forState:UIControlStateNormal];
+
     [self.showMapBtn setBackgroundColor:[UIColor clearColor]];
 
 
-    [self.callVenuesBtn setBackgroundImage:[UIImage imageNamed:@"PayPhoneicon"] forState:UIControlStateNormal];
+    [self.callVenuesBtn setImage:[UIImage imageNamed:@"MyCardPackage_PhoneHL"] forState:UIControlStateNormal];
     
     [self.showMapBtn setTag:self.tag];
     [self.showMapBtn addTarget:self.buttonDelegate action:@selector(showMap:) forControlEvents:UIControlEventTouchUpInside];

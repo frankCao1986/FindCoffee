@@ -14,6 +14,7 @@
 #import <MapKit/MapKit.h>
 #import "Venues.h"
 #import "VenueTableCell.h"
+#import "MBProgressHUD.h"
 @interface CafeTableViewController() <NSURLConnectionDataDelegate,NSURLConnectionDelegate, CLLocationManagerDelegate, VenueTableCellButtonDelegate>
 {
     CLLocationManager *_locationManager;
@@ -32,7 +33,7 @@
         _locationManager = [[CLLocationManager alloc]init];
         [_locationManager setDelegate:self];
         [_locationManager setDesiredAccuracy:kCLLocationAccuracyNearestTenMeters];
-        [_locationManager setDistanceFilter:5];
+        [_locationManager setDistanceFilter:10];
         [_locationManager startUpdatingLocation];
     }
     
@@ -50,12 +51,12 @@
         
         [activityIndicatorView startAnimating];
         // set up navition bar
-        [self setTitle:@"Cafe Nearby"];
-        [self.navigationController.navigationBar setTintColor:[UIColor whiteColor]];
-        [self.navigationController.navigationBar setBackgroundColor:[UIColor darkTextColor]];
-        [self.navigationController.navigationBar setTintColor:[UIColor whiteColor]];
+    
     }
-
+    [self setTitle:@"Cafe Nearby"];
+    [self.navigationController.navigationBar setTintColor:[UIColor whiteColor]];
+    [self.navigationController.navigationBar setBackgroundColor:[UIColor darkTextColor]];
+    [self.navigationController.navigationBar setTintColor:[UIColor whiteColor]];
 }
 
 #pragma mark - location manager delegate method
@@ -140,22 +141,15 @@
     }
     else{
         // give user instruction when there is no phone number available
-        CGRect frame = [[UIScreen mainScreen] bounds];
-        UILabel *label  = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 100, 100)];
-        [label setCenter:CGPointMake(frame.size.width/2, frame.size.height/2 - 100)];
-        [label setBackgroundColor:[UIColor blackColor]];
-        [label setText:@"phone call is not available"];
-        [label setTextColor:[UIColor whiteColor]];
-        [label setFont:[UIFont systemFontOfSize:12]];
-        [label setNumberOfLines:2];
-        [label setLineBreakMode:NSLineBreakByWordWrapping];
-        [label setTextAlignment:NSTextAlignmentCenter];
-        [label setAlpha:0.7];
-        [self.tableView addSubview:label];
-
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.5f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-            [label removeFromSuperview];
-        });
+        MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.navigationController.view animated:YES];
+        
+        // Configure for text only and offset down
+        hud.mode = MBProgressHUDModeText;
+        hud.labelText = @"Sorry, phone call is not available";
+        hud.margin = 10.f;
+        hud.removeFromSuperViewOnHide = YES;
+        
+        [hud hide:YES afterDelay:1.5];
     }
 }
 @end
