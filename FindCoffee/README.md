@@ -1,4 +1,4 @@
-Introducing [FindCoffee](https://github.com/frankCao1986/FindCoffee/tree/master/FindCoffee)
+Introducing [FindCoffee](https://github.com/frankCao1986/FindCoffee)
 =================
 
 Setup
@@ -7,7 +7,7 @@ Setup
 
 **Manually from GitHub**
 
-1.	Download the whole project files in the [Source directory](https://github.com/frankCao1986/FindCoffee/tree/master/FindCoffee).
+1.	Download the whole project files in the [Source directory](https://github.com/frankCao1986/FindCoffee).
 2.  Please add CoreLocation and Mapkit Framework for this project
 3.  After launching project, please to setting - > privacy -> location, and allow tihs app to access user location
 
