@@ -1,4 +1,4 @@
-Introducing [FindCoffee](https://github.com/smileyborg/PureLayout)
+Introducing [FindCoffee](https://github.com/frankCao1986/FindCoffee/tree/master/FindCoffee)
 =================
 
 Setup
