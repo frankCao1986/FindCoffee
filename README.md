@@ -18,11 +18,6 @@ Approach
 2.  MVC Structure, View cotnains user-defined TableView Cell. Cell contains name label, distance label and address label. Also , there are two buttons. One button is for show location in apple map. Another button is to call cafe phone. If there is no phone number available. A hint is how
 3.  Controller, there is only one controller. CaftTableViewController
 4.  http request method is GET. using SynchronousRequest;
-5.   info.plist add two keys, so location can be accessed by user
-        <key>NSLocationAlwaysUsageDescription</key>
-            <string>Find Coffee</string>
-        <key>NSLocationWhenInUseUsageDescription</key>
-            <string>Find Coffee</string>
 
 Testing
 -----
