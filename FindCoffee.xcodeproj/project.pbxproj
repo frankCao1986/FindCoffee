@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0158E13D1A7F1A0300F6A7E6 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0158E13C1A7F1A0300F6A7E6 /* MBProgressHUD.m */; };
+		015B8BD01A7F7E840057660F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 015B8BCF1A7F7E840057660F /* README.md */; };
 		01A91FFE1A7B001900AAC3AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A91FFD1A7B001900AAC3AA /* main.m */; };
 		01A920011A7B001900AAC3AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A920001A7B001900AAC3AA /* AppDelegate.m */; };
 		01A920071A7B001900AAC3AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01A920051A7B001900AAC3AA /* Main.storyboard */; };
@@ -49,6 +50,7 @@
 /* Begin PBXFileReference section */
 		0158E13B1A7F1A0300F6A7E6 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		0158E13C1A7F1A0300F6A7E6 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		015B8BCF1A7F7E840057660F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		01A91FF81A7B001900AAC3AA /* FindCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01A91FFC1A7B001900AAC3AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01A91FFD1A7B001900AAC3AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 		01A91FFA1A7B001900AAC3AA /* FindCoffee */ = {
 			isa = PBXGroup;
 			children = (
+				015B8BCF1A7F7E840057660F /* README.md */,
 				01A920331A7D023F00AAC3AA /* Others */,
 				01A920321A7D023900AAC3AA /* Model */,
 				01A920311A7D023300AAC3AA /* View */,
@@ -309,6 +312,7 @@
 				01A920011A7B001900AAC3AA /* AppDelegate.m in Sources */,
 				0158E13D1A7F1A0300F6A7E6 /* MBProgressHUD.m in Sources */,
 				01A9202F1A7C881B00AAC3AA /* VenueTableCell.m in Sources */,
+				015B8BD01A7F7E840057660F /* README.md in Sources */,
 				01A9202C1A7C5DF400AAC3AA /* Venues.m in Sources */,
 				01A920251A7B015500AAC3AA /* CafeTableViewController.m in Sources */,
 				01A91FFE1A7B001900AAC3AA /* main.m in Sources */,
