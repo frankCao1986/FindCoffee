@@ -1,4 +1,4 @@
-Introducing [FindCoffee](https://github.com/frankCao1986/FindCoffee/tree/master/FindCoffee)
+Introducing [FindCoffee](https://github.com/frankCao1986/FindCoffee)
 =================
 
 Setup
@@ -7,18 +7,22 @@ Setup
 
 **Manually from GitHub**
 
-1.	Download the whole project files in the [Source directory](https://github.com/frankCao1986/FindCoffee/tree/master/FindCoffee).
+1.	Download the whole project files in the [Source directory](https://github.com/frankCao1986/FindCoffee).
 2.  Please add CoreLocation and Mapkit Framework for this project
 3.  After launching project, please to setting - > privacy -> location, and allow tihs app to access user location
-4.  Development Environment: Xcode 6.1 iOS SDK 8.0
 
 Approach
 -----
 
 1.  MVC Structure, Data Model are Venues.h and Venues.m files.
-2.  MVC Structure, View cotnains user-defined TableView Cell. Cell contains name label, distance label and address label. Also , there are two buttons. One button is for show location in apple map. Another button is to call cafe phone. If there is no phone number available. A hint is how
+2.  MVC Structure, View cotnains user-defined TableView Cell. Cell contains name label, distance label and address label. Also , there are two buttons. One button is for show location in apple map. Another button is to call cafe phone. If there is no phone number available， then this function won't work'
 3.  Controller, there is only one controller. CaftTableViewController
 4.  http request method is GET. using SynchronousRequest;
+5.   info.plist add two keys, so location can be accessed by user
+        <key>NSLocationAlwaysUsageDescription</key>
+            <string>Find Coffee</string>
+        <key>NSLocationWhenInUseUsageDescription</key>
+            <string>Find Coffee</string>
 
 Testing
 -----
