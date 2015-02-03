@@ -27,8 +27,9 @@ Approach
 6.  user-defined UITableViewCell to display data.
 7.  Using CoreLocation to locate user.
     info.plist add two keys, so location can be accessed by user
+        <key></key>
         <key>NSLocationAlwaysUsageDescription</key>
-
+        <key></key>
         <key>NSLocationWhenInUseUsageDescription</key>
 
 
