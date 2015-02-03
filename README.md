@@ -28,9 +28,9 @@ Approach
 7.  Using CoreLocation to locate user.
     info.plist add two keys, so location can be accessed by user
         <key>NSLocationAlwaysUsageDescription</key>
-            <string>Find Coffee</string>
+
         <key>NSLocationWhenInUseUsageDescription</key>
-            <string>Find Coffee</string>
+
 
 Testing
 -----
