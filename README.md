@@ -26,13 +26,6 @@ Approach
     A instance method -(instancetype)initWithDict:(NSDictionary *)dict is used as pubic api.
 6.  user-defined UITableViewCell to display data.
 7.  Using CoreLocation to locate user.
-    info.plist add two keys, so location can be accessed by user
-        <key></key>
-        <key>NSLocationAlwaysUsageDescription</key>
-        <key></key>
-        <key>NSLocationWhenInUseUsageDescription</key>
-
-
 Testing
 -----
 1.  testing: unit test is mainly on the data model which is Venues.h and Venues.m. all margin values are tested.
