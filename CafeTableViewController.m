@@ -33,25 +33,12 @@
         _locationManager = [[CLLocationManager alloc]init];
         [_locationManager setDelegate:self];
         [_locationManager setDesiredAccuracy:kCLLocationAccuracyNearestTenMeters];
-        [_locationManager setDistanceFilter:10];
+        [_locationManager setDistanceFilter:50];
         [_locationManager startUpdatingLocation];
     }
     
     if ([CLLocationManager authorizationStatus]==kCLAuthorizationStatusNotDetermined){
         [_locationManager requestWhenInUseAuthorization];
-    }
-    else{
-        // set up activity indicator while loading data
-        UIActivityIndicatorView *activityIndicatorView = [[UIActivityIndicatorView alloc]initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
-        
-        [activityIndicatorView setCenter: self.navigationController.view.center];
-        [activityIndicatorView setHidesWhenStopped:YES];
-        [self.tableView addSubview:activityIndicatorView];
-        self.activityIndicator = activityIndicatorView;
-        
-        [activityIndicatorView startAnimating];
-        // set up navition bar
-    
     }
     [self setTitle:@"Cafe Nearby"];
     [self.navigationController.navigationBar setTintColor:[UIColor whiteColor]];
