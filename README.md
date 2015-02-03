@@ -13,7 +13,7 @@ Setup
 
 Assumpton
 -----
-people are looking for coffee around them. So the searched results should be limited to 2000m. Within 500m, they can walk. If they really need coffee, they can drive, the acceptable distance should be within 2000m
+people are looking for coffee around them. So the results should be limited to 2000m. Within 500m, they can walk. If they really need coffee, they can drive, the acceptable distance should be within 2000m
 
 Approach
 -----
