@@ -7,17 +7,21 @@
 //
 
 #import "VenueTableCell.h"
+#define kPadding 20
+#define kButtonSizeWidth 44
+#define kButtonSizeHeight 44
+#define kLabelHeightMin 40
+#define kCellWidth self.frame.size.width
 @interface VenueTableCell()
 @property (nonatomic,weak) UILabel *nameLabel;
 @property (nonatomic,weak) UILabel *addressLabel;
 @property (nonatomic,weak) UILabel *distanceLabel;
-
-
+@property (nonatomic,weak) UIView *header;
 @end
 @implementation VenueTableCell
 #pragma mark - layout subviews
 - (void)awakeFromNib{
-
+    // set up name label, distance label and address label, show map button, call cafe button
     UILabel *nameLabel = [[UILabel alloc]init];
     UILabel *distanceLabel = [[UILabel alloc]init];
     UILabel *addressLabel = [[UILabel alloc]init];
@@ -29,40 +33,48 @@
     self.distanceLabel = distanceLabel;
     self.addressLabel = addressLabel;
     
-    
+    // add to view
     [self.contentView addSubview:self.nameLabel];
     [self.contentView addSubview:self.distanceLabel];
     [self.contentView addSubview:self.addressLabel];
     [self.contentView addSubview:self.showMapBtn];
     [self.contentView addSubview:self.callVenuesBtn];
-
-    [self.contentView setBackgroundColor:[UIColor whiteColor]];
-
-
+    
+    
     [self.showMapBtn setImage:[UIImage imageNamed:@"current_location"] forState:UIControlStateNormal];
-
-    [self.showMapBtn setBackgroundColor:[UIColor clearColor]];
-
-
     [self.callVenuesBtn setImage:[UIImage imageNamed:@"MyCardPackage_PhoneHL"] forState:UIControlStateNormal];
     
-    [self.showMapBtn setTag:self.tag];
     [self.showMapBtn addTarget:self.buttonDelegate action:@selector(showMap:) forControlEvents:UIControlEventTouchUpInside];
     [self.callVenuesBtn addTarget:self.buttonDelegate action:@selector(callVenue:) forControlEvents:UIControlEventTouchUpInside];
+    // UIVIEW header mock uitable view separator, default separator sometimes failed to appear.
+    UIView *header = [[UIView alloc]init];
+    [header setBackgroundColor:[UIColor lightGrayColor]];
+    [header setAlpha:0.5];
+    [self.contentView addSubview:header];
+    self.header = header;
     [self setupAllFonts];
 }
-- (void)drawRect:(CGRect)rect{
+
+// layout all labels accordin to the corresponding text
+- (void)layoutSubviews{
     CGSize nameSize = [self getText:self.nameLabel.text withFontSize:15 withWidth:self.contentView.frame.size.width/2];
     CGFloat height = nameSize.height;
-    if (height < 40) {
-        height = 40;
+    if (height < kLabelHeightMin) {
+        height = kLabelHeightMin;
     }
-    [self.nameLabel setFrame:CGRectMake(20, 0, self.contentView.frame.size.width - 100 , height)];
-    [self.distanceLabel setFrame:CGRectMake(20, height , 80, 20)];
-    [self.addressLabel setFrame:CGRectMake(20, height + 15, self.contentView.frame.size.width - 100, 40)];
-    [self.showMapBtn setFrame:CGRectMake(self.frame.size.width - 20 - 44, 5, 44, 44)];
-    [self.callVenuesBtn setFrame:CGRectMake(self.frame.size.width - 20 - 44, 10 + 44, 44, 44)];
-    [self setNeedsDisplay];
+    // resize each label and button according to the text
+    // label widith minus 100 is to avoid overlap button
+    [self.nameLabel setFrame:CGRectMake(kPadding, 0, kCellWidth - 100 , height)];
+    // widith 90 can fit "Within 88888m"
+    [self.distanceLabel setFrame:CGRectMake(kPadding, height , 90, kPadding)];
+    // label widith minus 100 is to avoid overlap button
+    [self.addressLabel setFrame:CGRectMake(kPadding, height + 15, kCellWidth - 100, kLabelHeightMin)];
+    
+    [self.showMapBtn setFrame:CGRectMake(kCellWidth - kPadding - kButtonSizeWidth, 5, kButtonSizeWidth, kButtonSizeHeight)];
+    [self.callVenuesBtn setFrame:CGRectMake(kCellWidth - kPadding - kButtonSizeWidth, 10 + kButtonSizeHeight, kButtonSizeWidth, kButtonSizeHeight)];
+    // header frame
+    [self.header setFrame:CGRectMake(kPadding, 0, kCellWidth - kPadding, 1)];
+
 }
 // caluate size for fit text for given string, font size, and label wiidth
 - (CGSize)getText:(NSString *)string withFontSize:(CGFloat)fontSize withWidth:(CGFloat)width{
@@ -85,6 +97,7 @@
     [self.nameLabel setText:venue.name];
     [self.distanceLabel setText:[NSString stringWithFormat:@"Within %ldm",(long)venue.distance]];
     [self.addressLabel setText:venue.address];
+    // tag is used for identify which cell has been selected.
     [self.showMapBtn setTag:indexPath.row];
     [self.callVenuesBtn setTag:indexPath.row];
     

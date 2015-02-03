@@ -25,12 +25,14 @@
 @implementation CafeTableViewController
 - (void)viewDidLoad{
     [super viewDidLoad];
+    
     // set up navigation bar elements
     [self setTitle:@"Cafe Nearby"];
     [self.navigationController.navigationBar setTintColor:[UIColor whiteColor]];
     [self.navigationController.navigationBar setBackgroundColor:[UIColor darkTextColor]];
     [self.navigationController.navigationBar setTintColor:[UIColor whiteColor]];
     _dataList = [NSMutableArray array];
+    
     // set up CLlocationManager parameters
     if ([CLLocationManager locationServicesEnabled]) {
         _locationManager = [[CLLocationManager alloc]init];
@@ -43,18 +45,23 @@
     if ([CLLocationManager authorizationStatus]==kCLAuthorizationStatusNotDetermined){
         [_locationManager requestWhenInUseAuthorization];
     }
-
+    // disable separator, sometimes it won't work, use uiview to mock one , see mock one in the VenueTableCell
+     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
 }
 
 #pragma mark - location manager delegate method
 - (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations{
 
-    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"https://api.foursquare.com/v2/venues/search?client_id=ACAO2JPKM1MXHQJCK45IIFKRFR2ZVL0QASMCBCG5NPJQWF2G&client_secret=YZCKUYJ1WHUV2QICBXUBEILZI1DMPUIDP5SHV043O04FKBHL&v=20130815&ll=%f,%f&query=cafe",_locationManager.location.coordinate.latitude,_locationManager.location.coordinate.longitude]];
+    // 1. form url
+    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"https://api.foursquare.com/v2/venues/search?client_id=ACAO2JPKM1MXHQJCK45IIFKRFR2ZVL0QASMCBCG5NPJQWF2G&client_secret=YZCKUYJ1WHUV2QICBXUBEILZI1DMPUIDP5SHV043O04FKBHL&v=20130815&ll=%f,%f&query=coffee",_locationManager.location.coordinate.latitude,_locationManager.location.coordinate.longitude]];
     NSError *error = nil;
+    // http request
     NSData *data = [NSURLConnection sendSynchronousRequest:[NSURLRequest requestWithURL:url] returningResponse:nil error:&error];
     /*
     http request if failed at first time, then try another five times.  if all failed, then ask usser to check internet connection
      */
+    
+    // try 10 times if failed,if it won't work, let user to check internet connection.
     NSInteger kconnectionTry = 0;
     while (error != nil){
         data = [NSURLConnection sendSynchronousRequest:[NSURLRequest requestWithURL:url] returningResponse:nil error:&error];
@@ -68,7 +75,7 @@
     }
     // parse json
     NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:&error];
-    if (error != NULL) {
+    if (error != nil) {
         NSLog(@"%@",error);
         return;
     }
@@ -80,7 +87,7 @@
 #pragma mark mark set up dataList
 - (NSMutableArray *)setupDataListWithDict:(NSDictionary *)dict{
     NSArray *array =dict[@"response"][@"venues"];
-    // clear datalist once the location is updated.
+    // clear datalist before loading new data
     if (self.dataList != NULL) {
         [self.dataList removeAllObjects];
     }
@@ -104,7 +111,6 @@
     [cell setButtonDelegate:self];
     Venues *v = self.dataList[indexPath.row];
     [cell setupCellWith:v withIndexPath:indexPath];
-    NSLog(@"%p",cell);
     return cell;
 }
 #pragma mark - button delegate method implementation
@@ -133,7 +139,6 @@
         hud.labelText = @"Sorry, phone call is not available";
         hud.margin = 10.f;
         hud.removeFromSuperViewOnHide = YES;
-        
         [hud hide:YES afterDelay:1.5];
     }
 }
