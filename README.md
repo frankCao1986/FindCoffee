@@ -22,7 +22,7 @@ Approach
 2.  MVC Structure, View cotnains user-defined TableView Cell. Cell contains name label, distance label and address label. Also , there are two buttons. One button is for show location in apple map. Another button is to call cafe phone. If there is no phone number available， then this function won't work.
 3.  Controller, there is only one controller. CaftTableViewController
 4.  http request method is GET. using SynchronousRequest;
-5.  Once data is downloaded, using NSJSONSERIALIZATION to parse json data. The Venue instance is created to store data including cafe name, distance, address, coordinate, phone number
+5.  Once data is downloaded, using NSJSONSERIALIZATION to parse json data. The Venue instance is created to store data including cafe name, distance, address, coordinate, phone number.
     A instance method -(instancetype)initWithDict:(NSDictionary *)dict is used as pubic api.
 6.  user-defined UITableViewCell to display data.
 7.  Using CoreLocation to locate user.
