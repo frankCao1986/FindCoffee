@@ -19,6 +19,7 @@
         self.distance = [integer integerValue];
         self.phone = dict[@"contact"][@"phone"];
         self.venueCoordinate  = CLLocationCoordinate2DMake([dict[@"location"][@"lat"] floatValue], [dict[@"location"][@"lng"] floatValue]);
+
     }
     return self;
 }

@@ -25,11 +25,14 @@
 @implementation CafeTableViewController
 - (void)viewDidLoad{
     [super viewDidLoad];
-    
+    // set up navigation bar elements
+    [self setTitle:@"Cafe Nearby"];
+    [self.navigationController.navigationBar setTintColor:[UIColor whiteColor]];
+    [self.navigationController.navigationBar setBackgroundColor:[UIColor darkTextColor]];
+    [self.navigationController.navigationBar setTintColor:[UIColor whiteColor]];
     _dataList = [NSMutableArray array];
     // set up CLlocationManager parameters
     if ([CLLocationManager locationServicesEnabled]) {
-        
         _locationManager = [[CLLocationManager alloc]init];
         [_locationManager setDelegate:self];
         [_locationManager setDesiredAccuracy:kCLLocationAccuracyNearestTenMeters];
@@ -40,20 +43,15 @@
     if ([CLLocationManager authorizationStatus]==kCLAuthorizationStatusNotDetermined){
         [_locationManager requestWhenInUseAuthorization];
     }
-    [self setTitle:@"Cafe Nearby"];
-    [self.navigationController.navigationBar setTintColor:[UIColor whiteColor]];
-    [self.navigationController.navigationBar setBackgroundColor:[UIColor darkTextColor]];
-    [self.navigationController.navigationBar setTintColor:[UIColor whiteColor]];
+
 }
 
 #pragma mark - location manager delegate method
 - (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations{
-// http get method to get data
-    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"https://api.foursquare.com/v2/venues/search?ll=%f,%f&client_id=ACAO2JPKM1MXHQJCK45IIFKRFR2ZVL0QASMCBCG5NPJQWF2G&client_secret=YZCKUYJ1WHUV2QICBXUBEILZI1DMPUIDP5SHV043O04FKBHL&v=20150130",_locationManager.location.coordinate.latitude,_locationManager.location.coordinate.longitude]];
-    NSLog(@"%f, %f",_locationManager.location.coordinate.latitude,_locationManager.location.coordinate.longitude);
+
+    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"https://api.foursquare.com/v2/venues/search?client_id=ACAO2JPKM1MXHQJCK45IIFKRFR2ZVL0QASMCBCG5NPJQWF2G&client_secret=YZCKUYJ1WHUV2QICBXUBEILZI1DMPUIDP5SHV043O04FKBHL&v=20130815&ll=%f,%f&query=cafe",_locationManager.location.coordinate.latitude,_locationManager.location.coordinate.longitude]];
     NSError *error = nil;
     NSData *data = [NSURLConnection sendSynchronousRequest:[NSURLRequest requestWithURL:url] returningResponse:nil error:&error];
-    
     /*
     http request if failed at first time, then try another five times.  if all failed, then ask usser to check internet connection
      */
@@ -106,7 +104,7 @@
     [cell setButtonDelegate:self];
     Venues *v = self.dataList[indexPath.row];
     [cell setupCellWith:v withIndexPath:indexPath];
-    
+    NSLog(@"%p",cell);
     return cell;
 }
 #pragma mark - button delegate method implementation
